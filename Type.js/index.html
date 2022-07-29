@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf=8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<center><h1>Hi! I am Seaam</h1></center>
+
+<center><button onclick="typeWriter()">Click me</button></center>
+
+<p id="demo"></p>
+
+<script>
+var i = 0;
+var txt = 'I am a front-end web developer. I love to create simple yet meaningful websites with strong focus on responsive design, accessibility and performance. I have completed learning HTML, CSS and now I am currently learning Javascript.';
+var speed = 120;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+</script>
+
+
+<center><h2>Works</h2></center>
+<center><h3>⩨ Responsive Personal Website. <br>Watch it <a href="https://seaams-portfolio-v2.netlify.app/" target="_blank">here 🢅</a></h3></center>
+<center><h3>⩨ Real Basic Calculator <br>Watch it <a href="https://seaamcalculator.netlify.app/" target="_blank">here 🢅</a></h3></center>
+<center><h3>⩨ Responsive Music Website <br>Watch it <a href="https://solsticemusicapp.netlify.app/" target="_blank">here 🢅</a></h3></center>
+<center><h3>⩨ Responsive Teaching Website <br>Watch it <a href="https://physicswithabidjafar.netlify.app/" target="_blank">here 🢅</a></h3></center>
+<center><h3>⩨ Javascript Tic Tac Toe Game <br>Watch it <a href="https://tictactoebyseaam.netlify.app/" target="_blank">here 🢅</a></h3></center>
+<center><h3>⩨ Responsive Car Selling Website <br>Watch t <a href="https://autocarindia.netlify.app/" target="_blank">here 🢅</a></h3></center>
+<center><h3>Find all of my works on <a href="https://www.github.com/hayabusah2r" target="_blank">Github</a></h3></center>
+
+<center><h2>Awards</h2></center>
+<center><h3>✪ Typing Speed Certificate. <br>Download it <a href="certificate.pdf" download>here 🢃</a></h3></center>
+<center><h3>✪ CSS Quiz Certificate. <br>Download it <a href="css certificate.png" download>here 🢃</a></h3></center>
+
+<center><h2>Feedback</h2></center>
+<center><h3>If you have any queries or you just want to send a message,<br>Send it <a href="https://formsubmit.co/el/kowomi" target="_blank">here 🢅</a></h3></center>
+
+<div class="end">
+  <center><h3>The website is made by <a href="https://seaams-portfolio-v2.netlify.app/" target="_blank">Seaam</a></h3></center>
+</div>
+
+
+</body>
+</html>
